@@ -37,10 +37,16 @@ body {
 	height: 100%;
 } */
 
-.flex-container {
+/* .flex-container {
 	display: flex;
 }
 
 .flex-child {
 	flex: 1;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
