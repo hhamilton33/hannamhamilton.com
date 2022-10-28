@@ -51,3 +51,7 @@ h1 {
 	text-align: center;
 }
 
+nav ul li {
+	list-style-type: none;
+}
+
