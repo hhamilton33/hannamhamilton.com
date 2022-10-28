@@ -49,3 +49,8 @@ nav {
 	float: right; 
 	width: 40%;
 }
+
+a {
+	padding: 0, 4vw;
+}
+
