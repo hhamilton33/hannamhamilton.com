@@ -23,7 +23,7 @@ body {
 /* can i take some of this out? */
 div {
         height: 100vh;
-        padding: 0 0;
+/*         padding: 0 0; */
 }
 
 nav {
