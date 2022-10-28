@@ -23,8 +23,15 @@ body {
    	height: 100%; /* NEW */
 } */
 
-div {
+#div1 {
 	background: blue;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+#div2 {
+	background: red;
 	display: inline-block;
 	width: 50%;
 	height: 100%;
