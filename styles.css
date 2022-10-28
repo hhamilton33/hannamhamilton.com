@@ -11,6 +11,6 @@ div {
 
 .text {
 	color: black;
-	font-family: Century Gothic, sans-serif;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	text-decoration: none;
 }
