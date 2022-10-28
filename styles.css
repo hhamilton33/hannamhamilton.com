@@ -23,8 +23,16 @@ body {
 }
 
 div {
-        float: left;
+        height: 100vh;
+	float: left;
         height: 470px;
         width: 50%;
         padding: 0 0;
 }
+
+/* div {
+	height: 100vh;
+        float: left;
+        padding: 0 0;
+	display: inline-block;
+} */
