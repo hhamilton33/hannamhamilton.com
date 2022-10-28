@@ -23,9 +23,16 @@ body {
    	height: 100%; /* NEW */
 } */
 
-div {
+#left {
 /* 	display: inline-block; */
 	width: 50%;
 	height: 100%;
 	float: left
+}
+
+#right {
+/* 	display: inline-block; */
+	width: 50%;
+	height: 100%;
+	float: right
 }
