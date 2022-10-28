@@ -23,8 +23,6 @@ body {
 /* can i take some of this out? */
 div {
         height: 100vh;
-	float: left;
-        width: 50%;
         padding: 0 0;
 }
 
