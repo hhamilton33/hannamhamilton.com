@@ -20,15 +20,10 @@ div {
 	text-decoration: none;
 }
 
-.about-me {
-	height: 100%;
-	width: 50%;
-	display: inline-block;
+.flex-container {
+	display: flex;
 }
 
-.photos {
-	height: 100%;
-	width: 50%;
-	display: inline-block;
-	
+.about-me .photos {
+	flex: 1;
 }
