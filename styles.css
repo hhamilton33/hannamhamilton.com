@@ -26,6 +26,10 @@ div {
 /*         padding: 0 0; */
 }
 
+img {
+	text-align: center;
+}
+
 nav {
 	text-align: center;
 }
