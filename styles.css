@@ -23,13 +23,7 @@ body {
    	height: 100%; /* NEW */
 } */
 
-#left {
-	display: inline-block;
-	width: 50%;
-	height: 100%;
-}
-
-#right {
+div {
 	display: inline-block;
 	width: 50%;
 	height: 100%;
