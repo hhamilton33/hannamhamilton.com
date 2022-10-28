@@ -25,6 +25,7 @@ nav {
 	text-align: center;
 	margin: 2.5vh, 0;
 	display: flex;
+	justify-content: center;
 }
 
 #about-me {
