@@ -24,7 +24,8 @@ body {
 } */
 
 div {
-	display: inline-block;
+/* 	display: inline-block; */
 	width: 50%;
 	height: 100%;
+	float: left
 }
