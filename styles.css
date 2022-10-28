@@ -66,3 +66,8 @@ nav ul li {
 nav ul li a {
     padding: 15px;
  }
+
+a:hover {
+ color: gray;
+}
+
