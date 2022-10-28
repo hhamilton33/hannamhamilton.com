@@ -9,4 +9,9 @@ div {
 
 .text {
 	color: black;
+	font-family: "georgia";
+}
+
+.text a {
+	text-decoration: none;
 }
