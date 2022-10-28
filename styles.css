@@ -20,6 +20,7 @@ body {
         clear: both;
 }
 
+/* can i take some of this out? */
 div {
         height: 100vh;
 	float: left;
@@ -29,4 +30,20 @@ div {
 
 nav {
 	text-align: center;
+}
+
+#outer-div {
+	width: 100%;
+	overflow:auto;
+}
+
+#intro {
+	float:left; 
+	width: 60%;
+	
+}
+
+#photos {
+	float:right; 
+	width: 40%;
 }
