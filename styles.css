@@ -23,7 +23,7 @@ body {
    	height: 100%; /* NEW */
 } */
 
-#div3 {
+/* #div3 {
 	background: blue;
 	display: inline-block;
 	width: 50%;
@@ -35,4 +35,8 @@ body {
 	display: inline-block;
 	width: 50%;
 	height: 100%;
+} */
+
+.container {
+	display: flex;
 }
