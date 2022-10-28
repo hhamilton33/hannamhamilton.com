@@ -1,5 +1,9 @@
 /* @import "fonts"; */
 
+html {
+    height: 100%;
+}
+
 body {
 	height: 100%;
 	background: #EEEFEB;
