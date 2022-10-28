@@ -10,8 +10,5 @@ div {
 .text {
 	color: black;
 	font-family: "century gothic";
-}
-
-a .text {
 	text-decoration: none;
 }
