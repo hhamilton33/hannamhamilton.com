@@ -32,16 +32,16 @@ nav {
 
 #outer-div {
 	width: 100%;
-	overflow:auto;
+/* 	overflow: auto; */
 }
 
 #intro {
-	float:left; 
+	float: left; 
 	width: 60%;
 	
 }
 
 #photos {
-	float:right; 
+	float: right; 
 	width: 40%;
 }
