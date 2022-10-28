@@ -63,6 +63,11 @@ nav ul {
     justify-content: center;
   }
 
+nav ul li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 nav ul li a {
     padding: 15px;
  }
