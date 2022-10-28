@@ -29,10 +29,12 @@ div {
 .about-me {
 	height: 100%;
 	width: 50%;
+	display: inline-block;
 }
 
 .photos {
 	height: 100%;
 	width: 50%;
+	display: inline-block;
 	
 }
