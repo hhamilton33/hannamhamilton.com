@@ -27,7 +27,7 @@ div {
    	height: 100%; /* NEW */
 } */
 
-.about-me .photos {
+.about-me, .photos {
 	display: inline-block;
 	width: 50%;
 	height: 100%;
