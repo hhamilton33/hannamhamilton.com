@@ -5,14 +5,17 @@
 body {
 	height: 100vh;
 	background: #EEEFEB;
+	color: black;
+	font-family: 'Montserrat';
+	text-decoration: none;
 }
 
-.text {
+/* .text {
 	color: black;
 /* 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; */
 	font-family: 'Montserrat';
 	text-decoration: none;
-}
+} */
 
 #boxes {
         content: "";
@@ -42,10 +45,14 @@ nav {
 /* 	overflow: auto; */
 }
 
-#intro {
+#about-me {
 	float: left; 
 	width: 60%;
 	
+}
+
+#about-me-text {
+	background: #FFFFFF;
 }
 
 #photos {
