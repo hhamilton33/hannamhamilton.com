@@ -52,7 +52,7 @@ h1 {
 }
 
 nav ul {
-  list-style-position: inside;
+  list-style: none;
   padding-left: 0;
 }
 
