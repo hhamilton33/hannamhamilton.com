@@ -9,10 +9,6 @@ body {
 	background: #EEEFEB;
 }
 
-div {
-	color: white;
-}
-
 .text {
 	color: black;
 /* 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; */
@@ -27,7 +23,7 @@ div {
    	height: 100%; /* NEW */
 } */
 
-.about-me, .photos {
+div {
 	display: inline-block;
 	width: 50%;
 	height: 100%;
