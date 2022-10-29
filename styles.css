@@ -35,6 +35,10 @@ nav {
 	text-align: center;	
 }
 
+p {
+	text-align: left;
+}
+
 #photos {
 	float: right; 
 	width: 40%;
