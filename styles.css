@@ -1,8 +1,4 @@
 body {
  background-image: url('images/siam_point.jpg');
-}
-
-img {
-    filter: brightness(50%);
-    height: 1000px;
+ background-size: 60% 60%
 }
