@@ -1,4 +1,4 @@
 body {
  background-image: url('images/siam_point.jpg');
- background-size: auto;
+ background-size: contain;
 }
