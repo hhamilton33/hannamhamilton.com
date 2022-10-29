@@ -47,6 +47,7 @@ nav {
 #photos img {
 	width: 1fr;
 	height: 1fr;
+	object-fit: contain;
 }
 
 a {
