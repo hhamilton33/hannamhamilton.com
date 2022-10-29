@@ -76,6 +76,7 @@ nav ul {
 nav ul li {
     list-style-type: none;
     padding-left: 0;
+    border: dashed black;
 }
 
 nav ul li a {
