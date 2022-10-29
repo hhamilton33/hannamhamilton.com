@@ -1,0 +1,7 @@
+body {
+ background-image: url('images/lanikai_pillbox_hike.jpg');
+}
+
+img {
+    filter: brightness(50%);
+}
