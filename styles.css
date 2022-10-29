@@ -89,3 +89,8 @@ a:hover {
 img {
 	filter: brightness(80%);
 }
+
+#outer-div {
+	display: flex;
+	justify-content: center;
+}
