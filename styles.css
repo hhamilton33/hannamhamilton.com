@@ -28,7 +28,7 @@ nav {
 	justify-content: center;
 }
 
-#about-me {
+#left-side {
 	float: left; 
 	width: 60%;
 	margin-top: 5vh;
@@ -40,7 +40,7 @@ p#about-me {
 	padding: 0, 5vw;
 }
 
-#photos {
+#right-side {
 	float: right; 
 	width: 40%;
   	display: grid;
