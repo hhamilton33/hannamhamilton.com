@@ -85,3 +85,7 @@ nav ul li a {
 a:hover {
  color: gray;
 }
+
+img {
+	filter: brightness(50%);
+}
