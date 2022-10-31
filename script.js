@@ -1,5 +1,5 @@
 const menu_icon = document.querySelector('.menu-icon');
-const add_icon = document.querySelector('.add-icon');
+// const add_icon = document.querySelector('.add-icon');
 const mobile_menu = document.querySelector('#mobile-nav');
 
 menu_icon.addEventListener('click', () => {

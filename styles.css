@@ -69,6 +69,7 @@ img {
 
 #outer-div {
 	display: block;
+	/* height: 80vh; */
 	height: 100px;
 }
 
@@ -93,10 +94,10 @@ img {
 	visibility: hidden;
 } */
 
-p#about-me {
+/* p#about-me {
 	text-align: left;
 	padding: 0, 5vw;
-}
+} */
 
 #right-side {
 	float: left; 
@@ -260,6 +261,37 @@ td {
 
 #mobile-nav {
 	display: none;
+}
+
+#footer-container {
+	position: relative;
+	height: 30vh;
+}
+
+.container {
+	/* width: inherit; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+    /* max-width:  */
+	gap: 1.5%;
+	position: absolute;
+	bottom: 0;
+	clear: both;
+	margin-bottom: 2%;
+	margin-top: 10px;
+}
+
+footer div div {
+	width: 15%;
+}
+
+footer img {
+	object-fit: cover;
+	object-position: bottom;
+	/* padding: 5px; */
+	width: 100%;
 }
 
 @media screen and (max-width: 430px) {
