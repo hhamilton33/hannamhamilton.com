@@ -1,0 +1,376 @@
+body {
+	height: 100vh;
+	background: #EEEFEB;
+	color: black;
+	font-family: 'Montserrat';
+}
+
+#boxes {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* new */
+#navigation-and-contact {
+	margin: 2.5vh, 0;
+	height: 60px;
+}
+
+/* #desktop-nav {
+	text-align: left;
+	margin: 2.5vh, 0;
+	display: inline-block;
+	justify-content: left;
+	height: 60px;
+} */
+
+/* changed from desktop-nav to navigation */
+
+/* #desktop-nav {
+	text-align: left;
+	display: inline-block;
+	justify-content: left;
+	height: inherit;
+} */
+
+#navigation {
+	float: left; 
+	width: 50%;
+	height: inherit;
+	flex: 1;
+	display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+#github-email-linkedin {
+	float: left; 
+	width: 50%;
+	height: inherit;
+	flex: 1;
+	display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+/* #github-email-linkedin {
+	display: flex;
+	justify-content: right;
+    top: 20px;
+    right: 10px;
+} */
+
+#outer-div {
+	display: block;
+	height: 100px;
+}
+
+#left-side {
+	float: left; 
+	width: 50%;
+	height: inherit;
+	flex: 1;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: url('images/gt_grad_tech_tower_2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* margin-top: 3vh; */
+	/* height: 55vh; */
+	/* text-align: center;	 */
+}
+
+/* img {
+	visibility: hidden;
+} */
+
+p#about-me {
+	text-align: left;
+	padding: 0, 5vw;
+}
+
+#right-side {
+	float: left; 
+	width: 50%;
+	height: inherit;
+	flex: 1;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+	/* height: 55vh; */
+	/* margin-top: 1em; */
+	/* margin-top: 3vh; */
+	/* text-align: center; */
+
+  	/* display: grid;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 15px; */
+}
+	
+#right-side p {
+	margin: 2em;
+	font-size : 2.3vmin;
+	vertical-align: middle;
+	text-align: left;
+	/* height: 80%;
+	margin: 5%;
+	padding: 5%; */
+}
+#photos div img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+a {
+	display: inline-block;
+	padding: 0, 4vw;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* h1 {
+	display: block;
+} */
+
+#desktop-nav ul {
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+  }
+
+nav ul li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#desktop-nav ul li a {
+    padding: 1em;
+	padding-top: 1.3em;
+	display: block;
+ }
+
+ .active-page, a:hover {
+ color: gray;
+}
+
+/* img {
+	filter: brightness(90%);
+} */
+
+#outer-div {
+    padding: 4vh 3vw 4vh 3vw;
+    /* max-height: 355px; */
+	height: 50vw;
+	display: block;
+	text-align: center;
+}
+
+/* #outer-div {
+	display: flex;
+	justify-content: center;
+	width: 50%; */
+
+
+#name {
+    font-weight: bold;
+}
+
+span {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+
+/* h1 {
+    display: block;
+    text-align: center;
+    padding-left: 3vw;
+    padding-right: 1em;
+    justify-content: center;
+}  */
+
+div h1 {
+	text-align: center;
+	clear: both;
+}
+
+/* #github-email-linkedin {
+	position: absolute;
+    top: 10px;
+    right: 10px;
+} */
+
+
+/* #github-email-linkedin {
+	float: right;
+	margin-left: 3%;
+	z-index: 50; */
+
+/* third time */
+/* #github-email-linkedin {
+	height: 60px;
+	display: inline-block;
+	padding: 1em;
+	position: absolute;
+    top: 10px;
+    right: 10px;
+	cursor: pointer;
+} */
+
+.github-email-linkedin {
+	display: inline-block;
+	padding: 1.2em;
+}
+
+ion-icon {
+	font-size: 1.5em;
+}
+
+img {
+	float: left;
+	height: inherit;
+	width: auto;
+
+}
+
+td {
+	width: 50%;
+	max-height: 291px;
+}
+
+.menu-icon {
+	display: none;
+}
+
+/* .add-icon {
+	display: none;
+} */
+
+#mobile-nav {
+	display: none;
+}
+
+@media screen and (max-width: 430px) {
+
+	#desktop-nav {
+		display: none;
+	}
+
+	div h1 {
+		position: relative;
+		top: 50px;
+		padding: 15px;
+	}
+
+	.menu-icon {
+		/* height: inherit;
+		display: inline-block; */
+		/* padding: 0.4em, 0.5em; */
+		/* position: absolute;
+    	top: 20px;
+    	left: 10px; */
+		/* cursor: pointer; */
+
+		/* display: flex;
+    	justify-content: center;
+    	align-items: center; */
+
+		float: left; 
+		width: 50%;
+		height: inherit;
+		flex: 1;
+		display: flex;
+    	justify-content: left;
+    	align-items: left;
+	}
+
+	.menu-icon {
+		display: inline-block;
+		padding: 1.2em;
+		/* padding: 0; */
+		/* margin: 0; */
+		/* height: inherit; */
+	}
+
+	/* .add-icon {
+		height: 60px;
+		display: none;
+		padding: 1em;
+		position: absolute;
+    	top: 6px;
+    	left: 2px;
+		cursor: pointer;
+		transform: rotate(45deg);
+	} */
+
+	.navbar-links {
+		width: 100%;
+		clear: both;
+		/* background-color: #EEEFEB; */
+	}
+
+	.navbar-links ul {
+		width: 100%;
+		flex-direction: column;
+		align-items: flex-start;
+		/* background-color: #EEEFEB; */
+		margin: 0;
+		margin-top: 10px;
+    	padding: 0;
+	}
+
+	.navbar-links li {
+		text-align: center;
+		/* background-color: #EEEFEB; */
+	}
+
+	.navbar-links li a {
+		text-align: center;
+		padding: 0.7rem 0.7rem;
+		/* background-color: #EEEFEB; */
+	}
+
+	/* #mobile-nav ul li {
+		list-style-type: none;
+		padding-left: 0;
+	} */
+
+	#mobile-nav.nav-menu {
+		width: 100%;
+		flex-direction: column;
+		display: center;
+	}
+
+	#mobile-nav {
+		z-index: 100;
+		/* background: #EEEFEB; */
+	}
+
+	#github-email-linkedin {
+		z-index: 50;
+	}
+
+	#mobile-nav.nav-menu li {
+		text-align: center;
+		/* background-color: black; */
+	}
+
+	#mobile-nav.active {
+		display: block;
+		width: 100%;
+		z-index: 100;
+	}
+
+}
