@@ -148,6 +148,10 @@ a {
 	color: inherit;
 }
 
+/* .active {
+	color: grey;
+} */
+
 /* h1 {
 	display: block;
 } */
@@ -170,7 +174,7 @@ nav ul li {
 	display: block;
  }
 
- .active-page, a:hover {
+ a:hover {
  color: gray;
 }
 
@@ -340,6 +344,47 @@ footer img {
 	/* height: auto; */
 }
 
+#projects-container {
+	/* float: center;
+	width: 85%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr); */
+	/* --gap: 1.5%; */
+	--num-cols: 2;
+	/* --column-width: 15%; */
+	box-sizing: border-box;
+	padding: var(--gap);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	gap: 1.5%;
+	clear: both;
+	padding-bottom: 2vh;
+	padding-top: 7vh;
+	/* NEW */
+	/* display: inline-block; */
+}
+
+#projects-container div img {
+	width: 100%;
+	/* margin-bottom: 3vh;
+	margin-top: 5vh; */
+	/* height: auto; */
+}
+
+#projects-container div p {
+	display: inline-block;
+	margin-top: 3vh;
+	/* margin-bottom: 3vh;
+	margin-top: 5vh; */
+	/* height: auto; */
+}
+
+#projects-container div {
+	text-align: center;
+}
+
 /* NEW
 #bottom-part {
 	display: flex;
@@ -353,6 +398,15 @@ footer img {
 	}
 } */
 
+/* .active-page {
+	background-color: blue;
+	color: gray;
+   } */
+
+.active-page {
+	color: grey;
+}
+
 @media screen and (max-width: 430px) {
 
 	#desktop-nav {
@@ -363,6 +417,10 @@ footer img {
 		position: relative;
 		top: 40px;
 		padding: 15px;
+	}
+
+	#projects-container {
+		padding-top: 5vh;
 	}
 
 	/* #footer-container {

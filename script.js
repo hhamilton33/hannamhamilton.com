@@ -11,6 +11,14 @@ document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', 
     mobile_menu.classList.remove('active');
 }))
 
+// $(document).ready(function() {
+//     $('ul li a').click(function() {
+//         $('li a').removeClass('active');
+//         $(this).addClass('active');
+
+//     });
+// });
+
 // function show_menu_open() {
 //     menu_icon.style.display = "block";
 //     add_icon.style.display = "none";
