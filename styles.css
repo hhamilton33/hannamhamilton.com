@@ -67,7 +67,7 @@ img {
     right: 10px;
 } */
 
-#outer-div {
+.outer-div {
 	display: block;
 	/* height: 80vh; */
 	height: 100px;
@@ -182,7 +182,7 @@ nav ul li {
 	filter: brightness(90%);
 } */
 
-#outer-div {
+.outer-div {
     padding: 4vh 3vw 4vh 3vw;
     /* max-height: 355px; */
 	height: 50vw;
@@ -385,6 +385,40 @@ footer img {
 	text-align: center;
 }
 
+/* .project-container {
+	--num-cols: 2;
+	box-sizing: border-box;
+	padding: var(--gap);
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: 1fr, 2fr;
+	gap: 1.5%;
+	clear: both;
+	padding-bottom: 2vh;
+	padding-top: 7vh;
+} */
+
+/* .project-description p {
+	display: block;
+} */
+
+/* .project-description {
+	position: relative;
+	top: -80px;
+	padding: 0;
+	margin-bottom: 0.5vh;
+} */
+
+.project-photo .project-description {
+	max-width: 800px;
+	font-size: 1vw;
+}
+
+.project-photo {
+	min-height: 50%;
+	margin-bottom: 0;
+}
+
 /* NEW
 #bottom-part {
 	display: flex;
@@ -406,6 +440,55 @@ footer img {
 .active-page {
 	color: grey;
 }
+
+.project-description {
+	height: 30vh;
+}
+
+.project-height {
+	height: 50vh;
+}
+
+.project-photo, .project-description {
+	display: flex;
+	float: center;
+	/* height: 300px;
+	height: 30vh; */
+	/* height: inherit; */
+	flex: 1;
+    justify-content: center;
+    align-items: center;
+	padding: 0;
+	padding-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.project-photo img {
+	width: 75%;
+	height: auto;
+	margin-bottom: 5vh;
+	/* -webkit-filter: grayscale(100%);
+	filter: grayscale(100%); */
+}
+
+.project-description {
+	width: 75%;
+	text-align: left;
+
+}
+
+/* body {
+	margin: 0;
+	padding: 0;
+}
+#front, #back { position: absolute; width: 100vw; margin: 0; padding: 0;}
+#back { min-height: 100vh; z-index: 1; }
+#front { z-index: 2; }
+
+#back { background-image: url("images/waipio_valley_lookout_2.jpg"); 
+	    opacity: 0.5; 
+		background-size: cover;} */
 
 @media screen and (max-width: 430px) {
 
