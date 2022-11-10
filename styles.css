@@ -67,7 +67,7 @@ img {
     right: 10px;
 } */
 
-.outer-div {
+.outer-div, .project-photo {
 	display: block;
 	/* height: 80vh; */
 	height: 100px;
@@ -358,10 +358,9 @@ footer img {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(1, 1fr);
-	gap: 1.5%;
+	gap: 2vw;
 	clear: both;
-	padding-bottom: 2vh;
-	padding-top: 7vh;
+	padding: 7vh 3vw 3vh 3vw;
 	/* NEW */
 	/* display: inline-block; */
 }
@@ -409,10 +408,10 @@ footer img {
 	margin-bottom: 0.5vh;
 } */
 
-.project-photo .project-description {
+/* .project-photo .project-description {
 	max-width: 800px;
 	font-size: 1vw;
-}
+} */
 
 .project-photo {
 	min-height: 50%;
@@ -441,20 +440,18 @@ footer img {
 	color: grey;
 }
 
-.project-description {
+/* .project-description {
 	height: 30vh;
-}
+} */
 
 .project-height {
 	height: 50vh;
 }
 
-.project-photo, .project-description {
+/* .project-photo, .project-description {
 	display: flex;
 	float: center;
-	/* height: 300px;
-	height: 30vh; */
-	/* height: inherit; */
+	height: 80vw;
 	flex: 1;
     justify-content: center;
     align-items: center;
@@ -462,20 +459,82 @@ footer img {
 	padding-top: 0;
 	margin-right: auto;
 	margin-left: auto;
+} */
+
+.project-photo img {
+	/* width: 75%; */
+	/* height: auto; */
+	height: 50vh;
+	margin-bottom: 4vh;
+	/* -webkit-filter: grayscale(100%);
+	filter: grayscale(100%); */
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* .project-description {
+	text-align: left;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-height: 240px;
+	margin-right: auto;
+	margin-left: auto;
+} */
+
+/* .project-description p {
+	font-size: 2vw
+} */
+
+/* .project-photo {
+	float: center;
+	width: 75%;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('images/gt_grad_tech_tower_2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+} */
+
+.project-photo {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 5vh;
 }
 
 .project-photo img {
+	/* display: flex;
+	justify-content: center; */
 	width: 75%;
 	height: auto;
-	margin-bottom: 5vh;
-	/* -webkit-filter: grayscale(100%);
-	filter: grayscale(100%); */
+	margin: auto;
+	/* object-fit: contain; */
+	padding-top: 0;
+	margin-top: 0;
+	vertical-align: text-top;
+	padding-bottom: 5vh;
 }
 
-.project-description {
-	width: 75%;
-	text-align: left;
+/* #left-side {
+	float: left; 
+	width: 50%;
+	height: inherit;
+	flex: 1;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: url('images/gt_grad_tech_tower_2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+} */
 
+.project-photo img {
+	margin-top: 0;
+	padding-top: 0;
 }
 
 /* body {
@@ -489,6 +548,24 @@ footer img {
 #back { background-image: url("images/waipio_valley_lookout_2.jpg"); 
 	    opacity: 0.5; 
 		background-size: cover;} */
+
+.project-description {
+	display: flex;
+	justify-content: center;
+	/* text-align: center; */
+	font-size : 2.3vmin;
+	padding: 2vh 0;
+	clear: both;
+}
+
+.project-description p {
+	width: 75%;
+}
+
+/* .outer-div.project-photo {
+	display: flex;
+	justify-content: center;
+} */
 
 @media screen and (max-width: 430px) {
 
