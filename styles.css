@@ -81,7 +81,7 @@ img {
 	display: flex;
     justify-content: center;
     align-items: center;
-	background-image: url('images/gt_grad_tech_tower_2.jpg');
+	background-image: url('images/gt_grad_tech_tower_2_smaller.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -356,11 +356,11 @@ footer img {
 	box-sizing: border-box;
 	padding: var(--gap);
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(1, 1fr);
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	grid-template-rows: repeat(2, 1fr);
 	gap: 2vw;
 	clear: both;
-	padding: 7vh 3vw 3vh 3vw;
+	margin: 7vh 3vw 3vh 3vw;
 	/* NEW */
 	/* display: inline-block; */
 }
