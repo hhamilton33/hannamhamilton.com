@@ -13,8 +13,8 @@
         <div id='navigation'>
           <nav id='desktop-nav'>
             <ul class='nav-menu'>
-              <li ><a href='index.html' class='nav-link' :hover > Home </a></li>
-              <li ><a href='CV.pdf' class='nav-link' :hover> CV </a></li>
+              <li ><a href='index.html' class='nav-link active-page' :hover> Home </a></li>
+              <li ><a href='CV.pdf' target='_blank' class='nav-link' :hover> CV </a></li>
               <li ><a href='projects.html' class='nav-link' :hover> Projects </a></li>
             </ul>
           </nav> 
@@ -22,9 +22,9 @@
           <nav id='mobile-nav'>
             <div class='navbar-links'>
               <ul class='nav-menu'>
-                <li ><a href='index.html' class='nav-link' :hover > Home </a></li>
-                <li ><a href='CV.pdf' target='_blank' class='nav-link' :hover> CV </a></li>
-                <li ><a href='projects.html' class='nav-link' :hover> Projects </a></li>
+                <li ><a href='index.html' class='nav-link active-page' :hover > Home </a></li>
+                <li ><a href='CV.pdf' target='_blank' class='nav-link' :hover > CV </a></li>
+                <li ><a href='projects.html' class='nav-link' :hover > Projects </a></li>
               </ul>
             </div>
           </nav>
@@ -39,14 +39,24 @@
       <h1>Network Analysis for Return to Campus Decisions</h1>
       </div>
     </header>
-        <div class='project-description'> 
-            <p> To inform the responses to infectious disease outbreaks at colleges and universities, I worked with ISyE professors and other graduate students at Georgia Tech to build a co-enrollment network, which represents student connectivity through courses, and investigate the impacts of various hybrid instructional mode strategies on the co-enrollment network. We developed metrics for health risk and academic burden and compared the strategies from several different perspectives. More details will be shared once this work has been published. It is currently under review. </p>
-        </div>
-        <div class='project-photo'> 
-            <img src='images/covid-19_pandemic.jpg'> 
-        </div>
+    <!-- <div id='bottom-part'> -->
+      <div class='project-description'>
+        <p> To inform the responses to infectious disease outbreaks at colleges and universities, I worked with ISyE professors and other graduate students at Georgia Tech to build a co-enrollment network, which represents student connectivity through courses, and investigate the impacts of various hybrid instructional mode strategies on the co-enrollment network. We developed metrics for health risk and academic burden and compared the strategies from several different perspectives. More details will be shared once this work has been published. It is currently under review. </p>
+      </div>
+    <!-- </div> -->
+    <div class='project-photo'>
+        <img src='images/covid-19_pandemic.jpg'> 
+      <!-- <div id='left-side'> 
+      </div>
+      <div id='right-side'>
+        <p>
+          Hi! I am an innovative and collaborative data scientist. My passion for math and lifelong learning attracted me to data science. I designed and developed this website to showcase and broaden my skill set. I am looking for a new opportunity in data science that enables me to work with a lot of other data professionals and quickly learn new skills. Please contact me if you know of an opportunity that may be a good fit.
+        </p>
+      </div> -->
+    </div> 
    <script type='module' src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script>
    <script nomodule src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script>
+   <script src="fitty.min.js"></script>
    <script type='text/javascript' src='script.js'></script>
   </body>
 </html>
