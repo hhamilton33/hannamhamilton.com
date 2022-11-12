@@ -718,3 +718,9 @@ footer img {
 	}
 
 }
+
+@media screen and (max-width: 400px) {
+	#hannamhamilton {
+		font-size: 23pt;
+	}
+}
