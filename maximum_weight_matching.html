@@ -40,7 +40,7 @@
       </div>
     </header>
         <div class='project-description'> 
-            <p>  The codebase and report are available via the GitHub link above. </p>
+            <p>  A matching is a subset of a graph where at most one edge can be incident on a vertex. Matchings are often used in optimization for scheduling problems. In the maximum weight matching problem, the matching with the maximum sum of weights must be found in a weighted graph. Although this problem can be formulated as an integer program, I used linear relaxation to reduce the computational complexity. I validated the model and observed how the probability of obtaining an optimal integer solution decreases as the number of vertices in the graph increases. To improve this probability, I added odd-set constraints of cardinalities three and five. Thus, at most one edge could exist within a cycle of three vertices and at most two edges could exist within a cycle of five vertices. The improved probability of obtaining an optimal integer solution came at the cost of increased computation complexity. I explored three approaches for reducing the computational complexity. I found that only using the odd-set constraints when the optimal solution is not integer to be the most effective. I also experimented with generating the data from various distributions and with various means and observed similar model performance across different input data. The codebase and report are available via the GitHub link above. </p>
         </div>
         <div class='project-photo'> 
             <img src='images/maximum_weight_matching_smaller.jpg'> 
