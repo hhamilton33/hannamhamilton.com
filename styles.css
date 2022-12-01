@@ -378,6 +378,10 @@ footer img {
 		width: 100%;
 	}
 
+	#right-side p {
+	font-size : 1.3vmin;
+}
+
 }
 
 @media screen and (max-width: 400px) {
